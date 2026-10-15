@@ -6,7 +6,7 @@
   <p align="center">
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
     <img src="https://img.shields.io/badge/updated-2026--10--15-blue?style=flat-square" alt="Updated 2026-10-15" />
-    <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square" alt="License CC0-1.0" />
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License MIT" />
   </p>
 </div>
 
@@ -145,4 +145,4 @@
 
 ## License
 
-CC0-1.0(链接聚合)
+MIT — 本仓库的编排与文案;所链接各仓库遵循各自 License。
