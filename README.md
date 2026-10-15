@@ -43,6 +43,7 @@
 - [💡 使用小贴士](#使用小贴士)
 - [🕘 最近更新](#最近更新)
 - [🤝 收录与共建](#收录与共建)
+- [🙏 Acknowledgements](#acknowledgements)
 
 ---
 
@@ -154,6 +155,12 @@
 - 更多中文源(即梦/可灵/海螺社区帖)
 
 欢迎提 PR / Issue 补充条目,附上一句话"为什么值得收"即可。
+
+## Acknowledgements
+
+- README 结构与巡检思路参考:[ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) 与 [kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director)
+- 感谢清单里每一个仓库的作者——是你们的实测与开源,让这份清单有东西可收
+- Star 徽章由 [shields.io](https://shields.io) 提供
 
 ## License
 
