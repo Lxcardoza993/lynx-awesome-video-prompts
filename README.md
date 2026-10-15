@@ -7,6 +7,7 @@
 
 ## Contents
 
+- [AI 科普 / 知识讲解视频(主攻方向)](#ai-科普--知识讲解视频主攻方向)
 - [动漫 / 短剧 / 漫剧制作](#动漫--短剧--漫剧制作)
 - [Opus 5.5 代码生成视频](#opus-55-代码生成视频)
 - [通用视频提示词案例库](#通用视频提示词案例库)
@@ -14,6 +15,20 @@
 - [商业片 / TVC / 口播](#商业片--tvc--口播)
 - [论文与研究清单](#论文与研究清单)
 - [本地工作流](#本地工作流)
+
+## AI 科普 / 知识讲解视频(主攻方向)
+
+讲解动画(explainer)赛道。当前效果天花板是 Claude Opus 5.5 代码生成(HTML/Canvas/Three.js/Manim)——本质是"生成可编辑的程序再渲染成视频",不是传统文生视频。用其他模型复刻时,提示词结构(分镜叙事+视觉锚点+反AI感约束)比模型本身更重要。
+
+| 仓库 | ⭐ | 说明 |
+|---|---|---|
+| [xianyu110/awesome-claude-opus-5.5](https://github.com/xianyu110/awesome-claude-opus-5.5) | 52 | **首选**:讲解动画专类 17 案(AI 简史 3 分钟、Transformer 是什么、随机微分方程、诺贝尔经济学讲解等),`#prompts` 段附原帖提示词原文,直接可抄。1019 全清单见 [ALL_CASES.md](https://github.com/xianyu110/awesome-claude-opus-5.5/blob/main/ALL_CASES.md) |
+| [iart-ai/explainer-video-skills](https://github.com/iart-ai/explainer-video-skills) | 34 | Claude Code 讲解视频 skill:脚本→分镜→渲染带配音的讲解片、年度回顾、动画图表,全流程 |
+| [yokel1121/muyang-flat-animation](https://github.com/yokel1121/muyang-flat-animation) | 286 | 中文观点→纸上钢笔线稿+彩铅风知识讲解动画素材,中文科普赛道 |
+| [Atharva-Kanherkar/chalkboard](https://github.com/Atharva-Kanherkar/chalkboard) | 17 | 开源白板讲解视频:prompt → mp4,自托管 MIT,本地渲染管线 |
+| [joeseesun/opus-video-prompts](https://github.com/joeseesun/opus-video-prompts) | 342 | 54 个代码生成视频案例含讲解类,提示词整段可复制 |
+
+复刻要点(自用备忘):Opus 5.5 讲解片的提示词共性 = ①分镜逐段叙事 + ②每镜一个视觉隐喻锚点 + ③显式禁用模板化动效(bounce/粒子/发光)+ ④要求"代码可编辑"而非一次性渲染。这些约束移植到 GLM/Kimi/Gemini 上同样有效,效果损失主要在动画代码的物理感,可加"分步插值"缓解。
 
 ## 动漫 / 短剧 / 漫剧制作
 
