@@ -159,6 +159,7 @@
 ## Acknowledgements
 
 - README 结构与巡检思路参考:[ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts) 与 [kaomei/stickman-video-director](https://github.com/kaomei/stickman-video-director)
+- 感谢 [linux.do](https://linux.do) 与 [OpenClaw 中文社区](https://clawd.org.cn/forum) 的讨论与分享——清单里不少条目最早来自这两个社区的推荐
 - 感谢清单里每一个仓库的作者——是你们的实测与开源,让这份清单有东西可收
 - Star 徽章由 [shields.io](https://shields.io) 提供
 
