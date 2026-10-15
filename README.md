@@ -1,16 +1,13 @@
 <div align="center">
 
-# Awesome AI Video Prompts 🎬
-
-**做 AI 视频 / 动漫 / 短剧 / 讲解片,来这里挑提示词就够了。**
-
-Curated prompt resources for AI video, anime & short-drama production.
-
-![Awesome](https://awesome.re/badge.svg)
-![Updated](https://img.shields.io/badge/updated-2026--10--15-blue?style=flat-square)
-![Entries](https://img.shields.io/badge/entries-21-e95420?style=flat-square)
-![License](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)
-
+  <h2 align="center">Awesome AI Video Prompts 🎬</h2>
+  <p align="center"><strong>做 AI 视频 / 动漫 / 短剧 / 讲解片,来这里挑提示词就够了。</strong></p>
+  <p align="center">Curated prompt resources for AI video, anime & short-drama production.</p>
+  <p align="center">
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+    <img src="https://img.shields.io/badge/updated-2026--10--15-blue?style=flat-square" alt="Updated 2026-10-15" />
+    <img src="https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square" alt="License CC0-1.0" />
+  </p>
 </div>
 
 ---
