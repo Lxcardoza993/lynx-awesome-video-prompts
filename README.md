@@ -38,7 +38,8 @@
 - [🛠 Claude Code Skill 产线](#claude-code-skill-产线) — 装进 Claude Code 的提示词产线
 - [💰 商业片 / TVC / 口播](#商业片--tvc--口播) — 广告、带货、口播视频
 - [📄 论文与研究清单](#论文与研究清单) — 文生视频模型演进
-- [🏠 本地工作流](#本地工作流) — 本机出片的现成栈
+- [🏠 本地工作流](#本地工作流参考) — 本机出片的现成栈
+- [✨ 本仓库功能](#本仓库功能) — 每周自动巡检与停滞预警
 - [💡 使用小贴士](#使用小贴士)
 - [🕘 最近更新](#最近更新)
 - [🤝 收录与共建](#收录与共建)
@@ -107,14 +108,13 @@
 |---|---|
 | [jianzhnie/awesome-text-to-video](https://github.com/jianzhnie/awesome-text-to-video) ![](https://img.shields.io/github/stars/jianzhnie/awesome-text-to-video?style=social&label=star) | 文生视频生成/合成综述与论文清单,跟进模型演进 |
 
-## 本地工作流
+## 本地工作流参考
 
-自用备忘:不装新服务,复用现有栈。
+自用配置备忘,按需替换成你自己的栈:
 
-- **视频生成**: `grok-imagine-video`(jiujiu,8005,支持图生视频参考图)
-- **界面**: jiujiu WebUI `http://127.0.0.1:8005/webui/chat`(传图 + 流式出片)
-- **网关**: CPA(8317)统一入口,任何 OpenAI 兼容客户端可用
-- **剧本侧**: 本地 `comic-drama-script` skill 负责结构,提示词层参考上表 drama-skills
+- **视频生成**: 任意 OpenAI 兼容网关接入 Grok Imagine / Seedance / 即梦等视频模型(支持图生视频参考图)
+- **界面**: grok2api 类 WebUI(传图 + 流式出片),或直接用各模型官方网页
+- **剧本侧**: `comic-drama-script` 类结构化剧本 skill 负责叙事骨架,提示词层参考上表 drama-skills
 
 ## 使用小贴士
 
@@ -124,9 +124,21 @@
 
 ## 最近更新
 
+- **2026-10-15**:转公开——新增 GitHub Actions 每周巡检(停滞/归档预警 Issue)+ 本仓库功能介绍;清理内部环境细节;License 由 CC0 改为 MIT。
 - **2026-10-15**:README 大改版——参考 ai-boost/awesome-prompts 与 stickman-video-director 的结构:新增快速路由表、使用小贴士、本更新区;星数改为 shields.io 实时徽章,免去快照核对。
 - **2026-10-15**:新增 AI 科普/知识讲解板块,设为主攻方向。
 - **2026-10-14**:初始清单:AI 视频/动漫/漫剧提示词仓库精选。
+
+仓库地址:[github.com/Lxcardoza993/lynx-awesome-video-prompts](https://github.com/Lxcardoza993/lynx-awesome-video-prompts)
+
+## 本仓库功能
+
+不只是链接收藏夹,自带一套自动化维护机制:
+
+- **🤖 每周自动巡检**:`.github/workflows/monitor.yml` 每周一 03:00 UTC 自动跑 `scripts/monitor.py`,逐个核对 README 里 19 个仓库的存活、归档、最后 push 时间
+- **⏰ 停滞预警**:某仓库 180 天没 push 或已归档,自动开一条汇总 Issue 提醒人工降级/移除,不静默腐烂
+- **✅ 星数零维护**:所有星数走 shields.io 实时徽章,不用手动核对快照;README 的 updated 徽章由巡检自动刷新
+- **🎯 快速路由**:"它帮你做什么"表格 + 分类目录,按你要做的东西直接跳转,不用全篇翻
 
 ## 收录与共建
 
@@ -141,7 +153,7 @@
 - Runway / Pika / Luma 案例库
 - 更多中文源(即梦/可灵/海螺社区帖)
 
-私库,不对外;License 见下。
+欢迎提 PR / Issue 补充条目,附上一句话"为什么值得收"即可。
 
 ## License
 
