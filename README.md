@@ -5,7 +5,7 @@
   <p align="center">Curated prompt resources for AI video, anime & short-drama production.</p>
   <p align="center">
     <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
-    <img src="https://img.shields.io/badge/updated-2026--11--02-blue?style=flat-square" alt="Updated 2026-11-02" />
+    <img src="https://img.shields.io/badge/updated-2026--11--09-blue?style=flat-square" alt="Updated 2026-11-09" />
     <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License MIT" />
   </p>
 </div>
